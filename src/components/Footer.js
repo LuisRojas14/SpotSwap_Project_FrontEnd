@@ -1,12 +1,13 @@
 import React from "react";
 import { FaFacebook, FaTwitter, FaInstagram, FaGithub } from "react-icons/fa";
-
+// test//
 const Footer = () => {
     const currentYear = new Date().getFullYear();
   return (
     <footer className="footer">
       <div className="contact-info">
         <p>SpotSwap</p>
+        
         {/* <p>Phone: (555) 555-5555</p> */}
         <p>Email: info@spotswap.com</p>
       </div>
